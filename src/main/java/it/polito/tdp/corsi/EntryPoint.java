@@ -21,6 +21,7 @@ public class EntryPoint extends Application {
         
         Model model = new Model();
         FXMLController controller = loader.getController();
+        
         controller.setModel(model);
         
         scene.getStylesheets().add("/styles/Styles.css");
